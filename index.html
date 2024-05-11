@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Request </title>
+</head>
+<body>
+
+<style>
+    body{
+        
+    }
+    .main{
+        color: red;
+    }
+    
+    label{
+        
+        color: slateblue;
+    }
+    b{
+        color: slateblue;
+    }
+    button{
+        color:white;
+        width: 250px;
+        background-color: blue;
+    }
+    h1{
+        color: blue;
+    }
+    .container{
+        background-color: aqua;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        width: 700px;
+        height: 700px;
+    }
+    .soft{
+        width: 50%;
+        margin: 0 auto;
+        padding: 15px;
+        border: 5px solid rgba(0, 225, 255, 1);
+        background-color: white;
+        box-shadow: 5 10px 10px;
+        
+        
+    }
+</style>
+
+
+            <div class="container">
+            <div class="soft">
+                        <form action="https://httpbin.org/get"></form>
+                                    <h1>Software Request</h1>
+                    
+                                    <label for="Name">Name</label> <span class="main">*</span> <br>
+                                    <input type="text" name="Name" id="Name" autocomplete="on" required> <br>
+                                    <label for="Employee Id">Employee Id</label> <span class="main">*</span> <br>
+                                    <input type="text" name="Employee Id" id="Employee Id" autocomplete="on" required> <br>
+                                    <label for="Email">Email</label> <span class="main">*</span> <br>
+                                    <input type="text" name="Email" id="Email" autocomplete="on" required> <br>
+                                    <label for="Mobile No/Exten.No">Mobile No/Exten.No</label> <span class="main">*</span> <br>
+                                    <input type="text" name="Mobile No/Exten.No" id="Mobile No/Exten.No" autocomplete="on" required> <br>
+                                    <b>Which Software do you require?</b> <span class="main">*</span> <br>
+                                    <input type="checkbox"> <b>Software A</b> <br>                         
+                                    <input type="checkbox"> <b>Software B</b> <br>                       
+                                    <input type="checkbox"> <b>Software C</b> <br>
+                                    <b>How urgently do you need it?</b> <span class="main">*</span> <br>
+                                    <input type="radio"> <b>AS soon as possible</b> <br>
+                                    <input type="radio"> <b>Within 2 to 3 weeks</b> <br>
+                                    <input type="radio"> <b>I'm in no hurry</b> <br>
+
+                                    <button>Request</button>
+
+
+                        
+            </div>
+</body>     </div>
+</html>
